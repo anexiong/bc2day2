@@ -1,0 +1,140 @@
+body {
+	margin:0px;
+}
+
+
+header {
+	position:relative;
+	top:0;
+	left:0;
+	right:0;
+	height:100px;
+	background-color: #95b0d5;
+
+}
+
+h1 {
+	color:black;
+	font-family: 'Rammetto One', cursive;
+	position:relative;
+	left:20px;
+	top:50px;
+	color:black ;
+}
+
+nav {
+	position:relative;
+	left:800px;
+	padding-left: 10px;
+}
+nav ul {
+	padding-left: 0px;
+}
+
+nav ul button {
+	display:inline-block;
+	padding:0px 20px;
+	background-color: #e9d3b5;	
+}
+
+nav ul button a{
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+	-webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
+nav ul button a:hover{
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 20px black;
+}
+
+aside, main {
+	width: 550px;
+	height:400px;
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+aside {
+	background-image: url("http://i4.photobucket.com/albums/y140/anexiong/tree%20house.jpg");
+    background-repeat: no-repeat;
+}
+aside ul {
+	text-align: right;
+}
+aside ul li{
+	font-size: 20px;
+	color: #2e4e75;
+	font-weight: bold;
+	padding: 5px 0;
+
+}
+
+aside ul li a::after {
+	content: "- Please read";
+	color:grey;
+	text-decoration: none;
+}
+
+aside ul li a:hover {
+	color:black;
+	font-size: 20px;
+	color: rgba(0,0,0,0);
+	text-shadow: 0 0 20px #95b0d5;
+}
+
+main {
+ 	background-color: #e4cdac;
+ }
+
+h2 {
+	text-align: center;
+	font-family:"Rammetto One", cursive;
+}
+
+main p {
+	font-size: 20px;
+	color: #2e4e75;
+}
+main p::before {
+	content: "Lorem -";
+	color:black;
+	background-color: grey;
+	font-weight: bold;
+}
+
+footer {
+	position: relative;
+	bottom:0;
+	left: 0;
+	right: 0;
+	height:150px;
+	clear: both;
+	background-color: #95b0d5;
+}
+
+footer figure {
+	position:relative;
+	bottom:0;
+	left:0;
+	right:0;
+	width:150px;
+	height:150px;
+	background-color:#f1ecd1;
+	/*Rotate figure*/
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+footer figure p {
+	color:#2e4e75;
+	left:-70px;
+	padding: 50px 0px 50px 10px;
+	/*rotate p*/
+	-ms-transform: rotate (315deg);
+	-webkit-transform: rotate(315 deg);
+	transform:rotate(315deg);
+}
